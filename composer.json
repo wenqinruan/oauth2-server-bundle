@@ -1,9 +1,9 @@
 {
-    "name": "bshaffer/oauth2-server-bundle",
+    "name": "ruanwenqin/oauth2-server-bundle",
     "type": "symfony-bundle",
     "description": "Symfony OAuth2ServerBundle",
     "keywords": ["oauth", "oauth2", "security"],
-    "homepage": "http://github.com/bshaffer/oauth2-server-bundle",
+    "homepage": "https://github.com/wenqinruan/oauth2-server-bundle",
     "license": "MIT",
     "authors": [
         {
@@ -14,15 +14,13 @@
     "minimum-stability":"dev",
     "require": {
         "php": ">=5.3",
-        "bshaffer/oauth2-server-php": ">=1.0",
-        "bshaffer/oauth2-server-httpfoundation-bridge": "^1.2"
+        "codeages/biz-framework": ">=0.3",
+        "bshaffer/oauth2-server-php": ">=1.0"
     },
     "require-dev": {
-        "symfony/symfony": "^2.8|^3",
-        "doctrine/orm": "~2.4,>=2.4.5"
+        "symfony/symfony": "^2.8|^3"
     },
     "autoload": {
         "psr-0": { "OAuth2\\ServerBundle": "" }
-    },
-    "target-dir": "OAuth2/ServerBundle"
+    }
 }
